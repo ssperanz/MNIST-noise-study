@@ -10,7 +10,7 @@ Il rumore utilizzato in questo studio si tratta di rumore gaussiano, che viene a
 
 ## 1. Errori di classificazione senza rumore
 ### Modello
-Il modello su cui viene svolto il test è una semplice rete neurale di tipo MLP (Multi-Layer Perceptron) con due layer nascosti da 500 neuroni. La rete è addestrata sul dataset MNIST senza rumore e testata su immagini con diversi livelli di rumore gaussiano.
+Il modello su cui viene svolto il test è una semplice rete neurale di tipo MLP (Multi-Layer Perceptron) con due layer nascosti da 500 neuroni. La rete è addestrata sul dataset MNIST senza rumore e testata su immagini anch'esse prive di rumore.
 ### Risultati
 I risultati mostrano che il modello addestrato su immagini senza rumore riesce a classificare correttamente le immagini di test senza rumore, raggiungendo un'accuratezza elevata. Tuttavia, talvolta il modello commette errori di classificazione, specialmente su immagini che presentano caratteristiche simili tra le classi. In seguito vengono illustrati alcuni esempi di classificazione errata.
 
